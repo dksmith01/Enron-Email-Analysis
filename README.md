@@ -1,8 +1,8 @@
 # Machine learning analysis of Enron email corpus
-## Looking for "persons of interest" in the email scandal
-## 
-## 
-### Overview
+### Looking for "persons of interest" in the Enron financial scandal
+### 
+###
+#### Overview
 The Enron email corpus is a compilation of emails sent to and from important
 Enron employees during the period during which major financial fraud was being
 committed. By evaluating data from the Enron email corpus and public financial
@@ -12,7 +12,7 @@ contains information about many potential POIs’ financial interest in Enron as
 well as their email activity to and from other Enron employees, including
 potential POIs.
 
-### Feature Selection
+#### Feature Selection
 The features (with SelectKBest feature scores) I ended up using are the
 following: 
 * salary (19.025) 
@@ -23,7 +23,7 @@ following:
 * shared\_receipt\_with\_poi (10.777) 
 * fraction\_to\_poi (15.716)
 
-### Algorithm Selection and Tuning
+#### Algorithm Selection and Tuning
 In this case, we are looking for the highest weighted F1 score, which combines
 precision and recall into one value that an algorithm can maximize. If you don’t
 do this well, the classifier will not be optimized to be as predictive as it
@@ -45,7 +45,7 @@ there is a tradeoff between those two parameters, I wanted to see which
 combination worked the best. I ended up with a combination with a very high
 precision (0.71), but lower recall (0.12).
 
-### Other Notes
+#### Other Notes
 poi\_id\_testing\_all\_algorithms.py is where I ran seven different algorithms
 through test_classifier to assess the results
 
