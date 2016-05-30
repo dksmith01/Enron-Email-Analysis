@@ -1,0 +1,42 @@
+REFERENCES
+
+“I hereby confirm that this submission is my work. I have cited above the origins of any parts of the submission that were taken from Websites, books, forums, blog posts, github repositories, etc.”
+
+Sources Consulted…
+
+LDA:
+http://scikit-learn.org/0.16/modules/generated/sklearn.lda.LDA.html 
+
+Feature Selection:
+http://machinelearningmastery.com/an-introduction-to-feature-selection/
+http://scikit-learn.org/stable/modules/feature_selection.html 
+
+SelectKBest:
+http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html#sklearn.feature_selection.SelectKBest.fit_transform 
+
+MinMaxScaler > PCA > classifier:
+https://discussions.udacity.com/t/minmaxscaler-pca-classifier/42540
+
+PCA
+(Udacity video) https://discussions.udacity.com/t/webcast-understanding-principal-component-analysis-examples-and-interpretation-tuesday-28th-july-at-6pm-pacific-time/27152
+(iPython notebook discussed in video) http://nbviewer.jupyter.org/gist/nikolay-shenkov/888f86cc16ef32a0deee/PCA%20demonstration.ipynb
+
+Pipeline Object:
+http://scikit-learn.org/stable/modules/pipeline.html
+
+Cross Validation:
+http://scikit-learn.org/stable/modules/cross_validation.html
+F1 weighting: http://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score
+(Udacity example iPython NB) http://nbviewer.jupyter.org/github/jming/cs109/blob/master/lec_10_cross_val.ipynb 
+
+Explanation of Validation mistakes:
+https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data
+
+Project-Specific Questions on Udacity forums:
+https://discussions.udacity.com/t/any-suggestion-on-speeding-up-the-final-project-taking-hours-to-run-tester-py/159563
+https://discussions.udacity.com/t/different-results-by-using-gridsearchcv-vs-direct-applying-algorithm/35550/16
+https://discussions.udacity.com/t/gridsearchcv-and-testingtraining-data/36107/5
+https://discussions.udacity.com/t/valueerror-the-least-populated-class-in-y-has-only-1-member-which-is-too-few/44984
+
+Precision and Recall
+http://blog.yhat.com/posts/predicting-customer-churn-with-sklearn.html
